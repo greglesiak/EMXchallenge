@@ -32,7 +32,7 @@ class Test_Controller{
 				$result = "(224)-430-0183";
 				break;
 				case "Resume":
-				$result = "greglesiak.com/resume/";
+				$result = "http://greglesiak.com/resume/";
 				break;
 				case "Status":
 				$result = "Yes";
