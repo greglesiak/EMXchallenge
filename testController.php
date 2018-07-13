@@ -164,9 +164,9 @@ class Test_Controller{
 					
 				}
 				
-			
+				array_push($solved,$row);
 			}
-			array_push($solved,$row);
+			
 		}
 		
 		//repeat until puzzle is solved by passing the updated puzzle as well as which rows we have solved
