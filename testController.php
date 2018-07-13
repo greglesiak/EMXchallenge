@@ -19,17 +19,20 @@ class Test_Controller{
 		error_log($q);
 		
 			switch($q){
+				case "Ping":
+				$result = "OK";
+				break;
 				case "Referrer":
 				$result = "Indeed.com";
 				break;
 				case "Source":					
-				$result = "greglesiak.com/emx/sourcecode";
+				$result = "https://github.com/greglesiak/EMXchallenge";
 				break;
 				case "Phone":
 				$result = "(224)-430-0183";
 				break;
 				case "Resume":
-				$result = "greglesiak.com/resume";
+				$result = "greglesiak.com/resume/";
 				break;
 				case "Status":
 				$result = "Yes";
@@ -53,7 +56,7 @@ class Test_Controller{
 				$result = $this->puzzle($d);
 				break;
 				default:
-				$result = "OK";
+				$result = "Error, this is not a valid question";
 				break;
 			}
 		
